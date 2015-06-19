@@ -46,13 +46,3 @@ A final note about scoring, Scrabble is played around the world in a
 variety of languages, each with its own unique scoring table. For
 example, an "A" is scored at 14 in the Basque-language version of the
 game while being scored at 9 in the Latin-language version.
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-The Jumpstart Lab team [view source](http://jumpstartlab.com)
