@@ -81,13 +81,3 @@ on Wikipedia][dh] for one of the first implementations of this scheme.
 
 [1]: http://upload.wikimedia.org/wikipedia/en/7/75/Caesar3.png
 [dh]: http://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-Substitution Cipher at Wikipedia [view source](http://en.wikipedia.org/wiki/Substitution_cipher)
