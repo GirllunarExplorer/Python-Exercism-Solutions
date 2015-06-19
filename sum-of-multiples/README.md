@@ -7,13 +7,3 @@ If we list all the natural numbers below 10 that are multiples of 3 or
 
 Allow the program to be configured to find the sum of multiples of
 numbers other than 3 and 5.
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-A variation on Problem 1 at Project Euler [view source](http://projecteuler.net/problem=1)
