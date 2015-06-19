@@ -26,14 +26,9 @@ On the tenth day of Christmas my true love gave to me, ten Lords-a-Leaping, nine
 On the eleventh day of Christmas my true love gave to me, eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.
 
 On the twelfth day of Christmas my true love gave to me, twelve Drummers Drumming, eleven Pipers Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.
-```
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
 
 Wikipedia [view source](http://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song))
+
+I tried doing this recursively although I could've done this with a while loop because I wanted to practice some of my recursive skills. I initially had issues with recursion because I had both functions in the same file and it was recursively adding "On the nth day of christmas my true love gave to me." So it would print something like "on the second day of christmas my true love gave to me, two turtle doves, On the second day of christmas my true love gave to me a partridge in a pear tree."
+
+It was only when I separated the recursive function in another file that it stopped doing that. 
