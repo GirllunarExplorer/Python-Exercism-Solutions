@@ -64,13 +64,3 @@ Implement questions of the type:
 > What is 2 raised to the 5th power?
 
 Remember to write failing tests for this code.
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-Inspired by one of the generated questions in the Extreme Startup game. [view source](https://github.com/rchatley/extreme_startup)
