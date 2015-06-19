@@ -27,9 +27,3 @@ pass the test suite, it works with any input that fits the
 specification.
 
 Have fun!
-
-
-
-## Source
-
-Inspired by the 'Deaf Grandma' exercise in Chris Pine's Learn to Program tutorial. [view source](http://pine.fm/LearnToProgram/?Chapter=06)
