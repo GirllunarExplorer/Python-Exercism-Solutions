@@ -316,16 +316,3 @@ are some additional things you could try:
 * If you've removed all the duplication, do you have a lot of
   conditionals? Try replacing the conditionals with polymorphism, if it
   applies in this language. How readable is it?
-
-Then please share your thoughts in a comment on the submission. Did this
-experiment make the code better? Worse? Did you learn anything from it?
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-Learn to Program by Chris Pine [view source](http://pine.fm/LearnToProgram/?Chapter=06)
