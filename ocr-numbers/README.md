@@ -38,13 +38,3 @@ The number consists of four rows high, three columns wide:
                                  # fourth line is always blank
 
 There may be several numbers in the input text, one per line.
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-Inspired by the Bank OCR kata [view source](http://codingdojo.org/cgi-bin/wiki.pl?KataBankOCR)
