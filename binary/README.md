@@ -27,13 +27,3 @@ So: `23 => 2*10^1 + 3*10^0 => 2*10 + 3*1 = 23 base 10`
 Binary is similar, but uses powers of 2 rather than powers of 10.
 
 So: `101 => 1*2^2 + 0*2^1 + 1*2^0 => 1*4 + 0*2 + 1*1 => 4 + 1 => 5 base 10`.
-
-### Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `exercism/python/<exerciseName>` directory.
-
-For example, if you're submitting `bob.py` for the Bob exercise, the submit command would be something like `exercism submit <path_to_exercism_dir>/python/bob/bob.py`.
-
-## Source
-
-All of Computer Science [view source](http://www.wolframalpha.com/input/?i=binary&a=*C.binary-_*MathWorld-)
