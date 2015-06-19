@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Testing/.idea/Testing.iml" filepath="$USER_HOME$/PycharmProjects/Testing/.idea/Testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../accumulate/.idea/accumulate.iml" filepath="$PROJECT_DIR$/../../accumulate/.idea/accumulate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../accumulate_2/.idea/accumulate_2.iml" filepath="$PROJECT_DIR$/../accumulate_2/.idea/accumulate_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hamming/.idea/hamming.iml" filepath="$PROJECT_DIR$/../hamming/.idea/hamming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nucleotide_count/.idea/nucleotide_count.iml" filepath="$PROJECT_DIR$/../nucleotide_count/.idea/nucleotide_count.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../octal/.idea/octal.iml" filepath="$PROJECT_DIR$/../octal/.idea/octal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../point-mutation/.idea/point-mutation.iml" filepath="$PROJECT_DIR$/../point-mutation/.idea/point-mutation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../proverb/.idea/proverb.iml" filepath="$PROJECT_DIR$/../proverb/.idea/proverb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../raindrops/.idea/raindrops.iml" filepath="$PROJECT_DIR$/../raindrops/.idea/raindrops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../strain/.idea/strain.iml" filepath="$PROJECT_DIR$/../strain/.idea/strain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/triangle.iml" filepath="$PROJECT_DIR$/.idea/triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trinary/.idea/trinary.iml" filepath="$PROJECT_DIR$/../trinary/.idea/trinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zebra-puzzle/.idea/zebra-puzzle.iml" filepath="$PROJECT_DIR$/../zebra-puzzle/.idea/zebra-puzzle.iml" />
+    </modules>
+  </component>
+</project>
+
