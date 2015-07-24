@@ -2,9 +2,11 @@ __author__ = 'tracyrohlin'
 
 import string, random
 
-name_list = []
 
 class Robot:
+    name_list = None
+
+
     def __init__(self):
         self.name = self.robot_name()
         self.reset()
@@ -20,8 +22,8 @@ class Robot:
         return self.name
 
     def reset(self):
-        if self.name not in name_list:
-            name_list.append(self.name)
+        if self.name not in self.name_list:
+            self.name_list += self.name
         else:
             self.name = self.robot_name()
             self.reset()

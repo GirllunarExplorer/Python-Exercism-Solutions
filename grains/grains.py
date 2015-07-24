@@ -6,6 +6,5 @@ def on_square(n):
 def total_after(num):
     if num == 1:
         return on_square(num)
-    else:
-        return on_square(num) + total_after(num - 1)
+    return on_square(num) + total_after(num - 1)
 

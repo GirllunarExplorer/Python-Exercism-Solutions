@@ -2,18 +2,25 @@ __author__ = 'tracyrohlin'
 
 
 def score(word):
-    scrabble_values = {1: ["a", "e", "i", "o", "u", "l", "n", "r", "s", "t"],
-                       2: ["d", "g"],
-                       3: ["b", "c", "m", "p"],
-                       4: ["f", "h", "v", "w", "y"],
-                       5: ["k"],
-                       8: ["j", "x"],
-                       10: ["q", "z"]}
+    scrabble_values = {
+        "a": 1, "n": 1,
+        "b": 3, "o": 1,
+        "c": 3, "p": 3,
+        "d": 2, "q": 10,
+        "e": 1, "r": 1,
+        "f": 4, "s": 1,
+        "g": 2, "t": 1,
+        "h": 4, "u": 1,
+        "i": 1, "v": 4,
+        "j": 8, "w": 4,
+        "k": 5, "x": 8,
+        "l": 1, "y": 4,
+        "m": 3, "z": 10,
+    }
+
+    score = 0
+
     if word:
         word = word.lower()
-        new_scrabble_score = sum([k for (k,v) in scrabble_values.items() for l in list(word) if l in v])
-        return new_scrabble_score
-    else:
-        return 0
-
-
+        score = sum(v for (k,v) in scrabble_values.items() for l in word if l in k)
+    return score

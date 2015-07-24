@@ -1,9 +1,7 @@
 __author__ = 'tracyrohlin'
 
-def sum_of_multiples(n, multiples=None):
+def sum_of_multiples(n, multiples=[3,5]):
     result = []
-    if not multiples:
-            multiples = [3,5]
 
     ints = range(1,n)
     while len(ints) > 0:

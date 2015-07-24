@@ -1,12 +1,18 @@
 __author__ = 'tracyrohlin'
+from math import ceil, sqrt
+
+def prime(n):
+    if n < 2:
+        return False
+    elif n == 2:
+        return True
+    else:
+        for i in xrange(2, int(ceil(sqrt(n))) + 1):
+            if n % i == 0:
+                return False
+
+    return True
 
 def sieve(n):
-
-    number_list = range(2, n+1)
-    for i in range(n):
-        for item in number_list[i+1:]: #checking the section of the list from the next number up
-            if item % number_list[i] == 0:
-                number_list.remove(item) #if any number further in the list is a multiple of the current number,
-                                        # it removes ("filters") the number
+    number_list = [i for i in xrange(2, n+1) if prime(i)]
     return number_list
-print sieve(2)

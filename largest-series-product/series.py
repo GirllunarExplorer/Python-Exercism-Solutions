@@ -6,13 +6,8 @@ def slices(series, n):
 
     result = []
     for i in xrange(len(series)-1):
-        result.append(series[i:i+n])
-
-    result = [list(item) for item in result]
-
-    for sublist in result:
-        for i in range(len(sublist)):
-            sublist[i] = int(sublist[i])
+        sublist = list(map(int, series[i:i+n]))
+        result.append(sublist)
     return result
 
 def largest_product(series, n):
@@ -26,4 +21,3 @@ def largest_product(series, n):
         products = reduce(lambda x, y: x*y, n_pair)
         result.append(products)
     return max(result)
-
