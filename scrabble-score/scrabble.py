@@ -18,9 +18,7 @@ def score(word):
         "m": 3, "z": 10,
     }
 
-    score = 0
 
-    if word:
-        word = word.lower()
-        score = sum(v for (k,v) in scrabble_values.items() for l in word if l in k)
+    word = word.lower()
+    score = sum(scrabble_values.get(l, 0) for l in word)
     return score
